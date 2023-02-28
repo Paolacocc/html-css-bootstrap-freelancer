@@ -1,0 +1,59 @@
+:root {
+    --header-color: #2C3E50;
+    --primary-color: #1ABC9C;
+    --footer: #3A546D;
+}
+/* RESET */
+img {
+    max-width: 100%;
+}
+
+
+.header {
+    height: 100px;
+    color: white;
+    /* debug */
+    background-color: var(--header-color);
+}
+
+.jumbo {
+    background-color: var(--primary-color);
+    color: white;
+
+}
+
+.row {
+    /* debug */
+    /* border: 1px solid black; */
+    
+}
+
+.portfolio {
+    /* debug */
+    /* background-color: lightgreen; */
+}
+
+.aboutus {
+    background-color: var(--primary-color);
+    color: white;
+
+}
+
+.contacts {
+    /* debug */
+    /* background-color: lightgoldenrodyellow; */
+}
+.footer {
+    background-color: var(--footer);
+    color: white;
+
+}
+.bottom-footer {
+    background-color: #2C3E50;
+    color: white;
+
+
+}
+.container {
+    padding-bottom: 30px;
+}
